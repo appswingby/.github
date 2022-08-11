@@ -1,0 +1,19 @@
+name: Add ToDo Item to ToDo project
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@RELEASE_VERSION
+        with:
+          # to the issue
+          project-url: https://github.com/users/hidetzu/projects/3
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          # labeled: bug, needs-triage
+          # label-operator: OR
