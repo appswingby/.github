@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Add new ToDo
+    about: template
+    url: https://github.com/hidetzu/ToDo/issues/new?template=custom.md&projects=hidetzu/ToDo/1&labels=todo
