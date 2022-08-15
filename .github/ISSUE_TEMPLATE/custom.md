@@ -2,7 +2,11 @@
 name: ToDo template
 about: See .github/ISSUE_TEMPLATE/custom.md
 title:  "[DATE]: [FEATURE NAME]"
-assignees: 'hidetzu'
+assignees: 
+  - hidetzu
+labels:
+  - "Priority: Medium"
+  - "Status: Available"
 ---
 
 

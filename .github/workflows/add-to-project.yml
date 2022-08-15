@@ -20,3 +20,4 @@ jobs:
           #project-url: https://github.com/users/hidetzu/projects/3
           project-url: https://github.com/users/${{ env.PROJECRT_OWNER }}/projects/${{ env.PROJECRT_NUMBER }}
           github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          labeled: "◻️Todo"
